@@ -17,7 +17,7 @@ document.querySelector("#button").addEventListener("click", function () {
       console.log(1);
     }
   } else if (
-    document.body.clientWidth > 641 &&
+    document.body.clientWidth >= 641 &&
     document.body.clientWidth < 1200
   ) {
     if (meaningDisplayTablet == "none") {
