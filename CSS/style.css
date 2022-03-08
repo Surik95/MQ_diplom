@@ -186,6 +186,10 @@ html {
   text-transform: uppercase;
 }
 
+.news-title .link:hover {
+  color: #b59f5b;
+}
+
 .news-info {
   display: flex;
   margin-bottom: 47px;
@@ -479,8 +483,6 @@ button-email:focus {
 }
 
 .shop-section__info-product {
-  display: flex;
-  flex-direction: column;
   padding: 47px 19px 24px;
   border: 3px solid #b59f5b;
   margin-top: -34px;
@@ -723,17 +725,17 @@ button-email:focus {
   color: #b59f5b;
 }
 .feedback-page {
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    align-items: center;
-    height: 100%;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    z-index: 2;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
 }
 .feedback-page::after {
   content: "";
@@ -906,7 +908,7 @@ button-email:focus {
     flex-direction: column;
     width: 100%;
     align-content: flex-end;
-    transform: translate(0, -81px);
+    transform: translate(0, -84px);
     position: relative;
     padding-top: 80px;
   }
@@ -1158,7 +1160,6 @@ button-email:focus {
     position: relative;
     padding-top: 51px;
   }
-
   .nav::before {
     content: "";
     position: absolute;
@@ -1383,13 +1384,13 @@ button-email:focus {
   .feedback-form__group:nth-child(4) {
     margin-bottom: 18px;
   }
-.feedback-form .title {
+  .feedback-form .title {
     padding: 0;
     margin-bottom: 25px;
   }
   .feedback-form__checkbox-text:last-child {
     margin-right: 32px;
-}
+  }
   .feedback-form__checkbox-text::before {
     width: 25px;
     height: 25px;
