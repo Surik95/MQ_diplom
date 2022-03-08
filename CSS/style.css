@@ -382,13 +382,11 @@ html {
   border: none;
   border-radius: 0;
 }
-
 .field-search,
 .email,
 button-email:focus {
   outline: none;
 }
-
 .button-search {
   width: 48px;
   height: 48px;
@@ -427,7 +425,11 @@ button-email:focus {
   border: none;
   text-transform: uppercase;
 }
-
+.field-search:focus,
+.email:focus {
+ outline: 1px solid #b59f5b;
+ outline-offset: -1px;
+}
 .shop {
   width: 1200px;
   display: flex;
@@ -908,7 +910,7 @@ button-email:focus {
     flex-direction: column;
     width: 100%;
     align-content: flex-end;
-    transform: translate(0, -84px);
+    transform: translate(0, -87px);
     position: relative;
     padding-top: 80px;
   }
@@ -942,17 +944,6 @@ button-email:focus {
     margin-bottom: 0;
     align-self: flex-start;
     margin-top: 7px;
-  }
-  .button-menu_mobile-active::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    background-color: #000;
-    opacity: 0.6;
-    z-index: 4;
   }
   /* изменение*/
   .now-trending {
@@ -1187,17 +1178,6 @@ button-email:focus {
     align-self: flex-end;
     transform: rotate(90deg);
     margin-bottom: 0;
-  }
-  .button-menu_mobile-active::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    background-color: #000;
-    opacity: 0.6;
-    z-index: 4;
   }
   .button-menu {
     display: block;
